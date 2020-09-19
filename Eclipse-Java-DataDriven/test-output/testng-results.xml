@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Loginsuite" duration-ms="64070" started-at="2020-09-19T15:51:55 IST" finished-at="2020-09-19T15:53:00 IST">
+  <suite name="Loginsuite" duration-ms="49400" started-at="2020-09-19T16:07:48 IST" finished-at="2020-09-19T16:08:38 IST">
     <groups>
     </groups>
-    <test name="Bothinvalid" duration-ms="12722" started-at="2020-09-19T15:51:55 IST" finished-at="2020-09-19T15:52:08 IST">
-      <class name="demo.java.datadriven.xml.Bothinvalid">
-        <test-method status="PASS" signature="loginwithInvalidcredentials()[pri:0, instance:demo.java.datadriven.xml.Bothinvalid@5b87ed94]" name="loginwithInvalidcredentials" duration-ms="12656" started-at="2020-09-19T15:51:56 IST" finished-at="2020-09-19T15:52:08 IST">
+    <test name="Bothinvalid" duration-ms="12643" started-at="2020-09-19T16:07:48 IST" finished-at="2020-09-19T16:08:01 IST">
+      <class name="demo.java.datadriven.xml.parameter.Bothinvalid">
+        <test-method status="PASS" signature="loginwithInvalidcredentials()[pri:0, instance:demo.java.datadriven.xml.parameter.Bothinvalid@5bc79255]" name="loginwithInvalidcredentials" duration-ms="12558" started-at="2020-09-19T16:07:49 IST" finished-at="2020-09-19T16:08:01 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithInvalidcredentials -->
-      </class> <!-- demo.java.datadriven.xml.Bothinvalid -->
+      </class> <!-- demo.java.datadriven.xml.parameter.Bothinvalid -->
     </test> <!-- Bothinvalid -->
-    <test name="Invalid Password" duration-ms="11332" started-at="2020-09-19T15:52:08 IST" finished-at="2020-09-19T15:52:20 IST">
-      <class name="demo.java.datadriven.xml.InvalidPassword">
-        <test-method status="PASS" signature="loginwithInvalidPassword()[pri:0, instance:demo.java.datadriven.xml.InvalidPassword@6c49835d]" name="loginwithInvalidPassword" duration-ms="11328" started-at="2020-09-19T15:52:08 IST" finished-at="2020-09-19T15:52:20 IST">
+    <test name="Invalid Password" duration-ms="11252" started-at="2020-09-19T16:08:01 IST" finished-at="2020-09-19T16:08:12 IST">
+      <class name="demo.java.datadriven.xml.parameter.InvalidPassword">
+        <test-method status="PASS" signature="loginwithInvalidPassword()[pri:0, instance:demo.java.datadriven.xml.parameter.InvalidPassword@67205a84]" name="loginwithInvalidPassword" duration-ms="11247" started-at="2020-09-19T16:08:01 IST" finished-at="2020-09-19T16:08:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithInvalidPassword -->
-      </class> <!-- demo.java.datadriven.xml.InvalidPassword -->
+      </class> <!-- demo.java.datadriven.xml.parameter.InvalidPassword -->
     </test> <!-- Invalid Password -->
-    <test name="Invalid Username" duration-ms="10304" started-at="2020-09-19T15:52:20 IST" finished-at="2020-09-19T15:52:30 IST">
-      <class name="demo.java.datadriven.xml.InvalidUsername">
-        <test-method status="PASS" signature="loginwithInvalidUsername()[pri:0, instance:demo.java.datadriven.xml.InvalidUsername@76707e36]" name="loginwithInvalidUsername" duration-ms="10300" started-at="2020-09-19T15:52:20 IST" finished-at="2020-09-19T15:52:30 IST">
+    <test name="Invalid Username" duration-ms="11173" started-at="2020-09-19T16:08:12 IST" finished-at="2020-09-19T16:08:24 IST">
+      <class name="demo.java.datadriven.xml.parameter.InvalidUsername">
+        <test-method status="PASS" signature="loginwithInvalidUsername()[pri:0, instance:demo.java.datadriven.xml.parameter.InvalidUsername@1f554b06]" name="loginwithInvalidUsername" duration-ms="11169" started-at="2020-09-19T16:08:12 IST" finished-at="2020-09-19T16:08:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithInvalidUsername -->
-      </class> <!-- demo.java.datadriven.xml.InvalidUsername -->
+      </class> <!-- demo.java.datadriven.xml.parameter.InvalidUsername -->
     </test> <!-- Invalid Username -->
-    <test name="Valid Credentials" duration-ms="29640" started-at="2020-09-19T15:52:30 IST" finished-at="2020-09-19T15:53:00 IST">
-      <class name="demo.java.datadriven.xml.Login">
-        <test-method status="PASS" signature="loginwithBothCorrect()[pri:0, instance:demo.java.datadriven.xml.Login@711f39f9]" name="loginwithBothCorrect" duration-ms="29632" started-at="2020-09-19T15:52:30 IST" finished-at="2020-09-19T15:53:00 IST">
+    <test name="Valid Credentials" duration-ms="14273" started-at="2020-09-19T16:08:24 IST" finished-at="2020-09-19T16:08:38 IST">
+      <class name="demo.java.datadriven.xml.parameter.Login">
+        <test-method status="PASS" signature="loginwithBothCorrect()[pri:0, instance:demo.java.datadriven.xml.parameter.Login@7f13d6e]" name="loginwithBothCorrect" duration-ms="14270" started-at="2020-09-19T16:08:24 IST" finished-at="2020-09-19T16:08:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithBothCorrect -->
-      </class> <!-- demo.java.datadriven.xml.Login -->
+      </class> <!-- demo.java.datadriven.xml.parameter.Login -->
     </test> <!-- Valid Credentials -->
   </suite> <!-- Loginsuite -->
 </testng-results>

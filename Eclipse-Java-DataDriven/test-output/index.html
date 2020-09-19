@@ -104,22 +104,22 @@
                     <div class="method-list-content passed suite-Loginsuite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.Login" hash-for-method="loginwithBothCorrect">loginwithBothCorrect</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.parameter.Login" hash-for-method="loginwithBothCorrect">loginwithBothCorrect</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.InvalidPassword" hash-for-method="loginwithInvalidPassword">loginwithInvalidPassword</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.parameter.InvalidPassword" hash-for-method="loginwithInvalidPassword">loginwithInvalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.InvalidUsername" hash-for-method="loginwithInvalidUsername">loginwithInvalidUsername</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.parameter.InvalidUsername" hash-for-method="loginwithInvalidUsername">loginwithInvalidUsername</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.Bothinvalid" hash-for-method="loginwithInvalidcredentials">loginwithInvalidcredentials</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Loginsuite" title="demo.java.datadriven.xml.parameter.Bothinvalid" hash-for-method="loginwithInvalidcredentials">loginwithInvalidcredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Loginsuite -->
@@ -137,22 +137,7 @@
           <div class="suite-Loginsuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">demo.java.datadriven.xml.Login</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginwithBothCorrect">
-                  </a> <!-- loginwithBothCorrect -->
-                  <span class="method-name">loginwithBothCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Loginsuite-class-passed -->
-          <div class="suite-Loginsuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">demo.java.datadriven.xml.InvalidPassword</span>
+              <span class="class-name">demo.java.datadriven.xml.parameter.InvalidPassword</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -167,7 +152,22 @@
           <div class="suite-Loginsuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">demo.java.datadriven.xml.InvalidUsername</span>
+              <span class="class-name">demo.java.datadriven.xml.parameter.Bothinvalid</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithInvalidcredentials">
+                  </a> <!-- loginwithInvalidcredentials -->
+                  <span class="method-name">loginwithInvalidcredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Loginsuite-class-passed -->
+          <div class="suite-Loginsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">demo.java.datadriven.xml.parameter.InvalidUsername</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -182,14 +182,14 @@
           <div class="suite-Loginsuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">demo.java.datadriven.xml.Bothinvalid</span>
+              <span class="class-name">demo.java.datadriven.xml.parameter.Login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginwithInvalidcredentials">
-                  </a> <!-- loginwithInvalidcredentials -->
-                  <span class="method-name">loginwithInvalidcredentials</span>
+                  <a name="loginwithBothCorrect">
+                  </a> <!-- loginwithBothCorrect -->
+                  <span class="method-name">loginwithBothCorrect</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -205,23 +205,31 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Loginsuite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Bothinvalid&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin1234&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Admin1&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;demo.java.datadriven.xml.Bothinvalid&quot;/&gt;
+      &lt;class name=&quot;demo.java.datadriven.xml.parameter.Bothinvalid&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Bothinvalid --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Invalid Password&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin1234&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Admin&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;demo.java.datadriven.xml.InvalidPassword&quot;/&gt;
+      &lt;class name=&quot;demo.java.datadriven.xml.parameter.InvalidPassword&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Invalid Password --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Invalid Username&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin123&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;admin&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;demo.java.datadriven.xml.InvalidUsername&quot;/&gt;
+      &lt;class name=&quot;demo.java.datadriven.xml.parameter.InvalidUsername&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Invalid Username --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Valid Credentials&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin123&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;Admin&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;demo.java.datadriven.xml.Login&quot;/&gt;
+      &lt;class name=&quot;demo.java.datadriven.xml.parameter.Login&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Valid Credentials --&gt;
 &lt;/suite&gt; &lt;!-- Loginsuite --&gt;
@@ -273,25 +281,25 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginwithBothCorrect')
-data.setCell(0, 2, 'demo.java.datadriven.xml.Login')
-data.setCell(0, 3, 29632);
+data.setCell(0, 2, 'demo.java.datadriven.xml.parameter.Login')
+data.setCell(0, 3, 14270);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginwithInvalidcredentials')
-data.setCell(1, 2, 'demo.java.datadriven.xml.Bothinvalid')
-data.setCell(1, 3, 12656);
+data.setCell(1, 2, 'demo.java.datadriven.xml.parameter.Bothinvalid')
+data.setCell(1, 3, 12558);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginwithInvalidPassword')
-data.setCell(2, 2, 'demo.java.datadriven.xml.InvalidPassword')
-data.setCell(2, 3, 11328);
+data.setCell(2, 2, 'demo.java.datadriven.xml.parameter.InvalidPassword')
+data.setCell(2, 3, 11247);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginwithInvalidUsername')
-data.setCell(3, 2, 'demo.java.datadriven.xml.InvalidUsername')
-data.setCell(3, 3, 10300);
+data.setCell(3, 2, 'demo.java.datadriven.xml.parameter.InvalidUsername')
+data.setCell(3, 3, 11169);
 window.suiteTableData['Loginsuite']= { tableData: data, tableDiv: 'times-div-Loginsuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 49 seconds</span>
               <div id="times-div-Loginsuite">
               </div> <!-- times-div-Loginsuite -->
             </div> <!-- times-div -->
@@ -317,31 +325,31 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">demo.java.datadriven.xml.Bothinvalid</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">demo.java.datadriven.xml.parameter.Bothinvalid</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginwithInvalidcredentials</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">demo.java.datadriven.xml.InvalidPassword</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">demo.java.datadriven.xml.parameter.InvalidPassword</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginwithInvalidPassword</span>
-                <span class="method-start">12713 ms</span>
+                <span class="method-start">12622 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">demo.java.datadriven.xml.InvalidUsername</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">demo.java.datadriven.xml.parameter.InvalidUsername</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginwithInvalidUsername</span>
-                <span class="method-start">24058 ms</span>
+                <span class="method-start">23885 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">demo.java.datadriven.xml.Login</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">demo.java.datadriven.xml.parameter.Login</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginwithBothCorrect</span>
-                <span class="method-start">34378 ms</span>
+                <span class="method-start">35068 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

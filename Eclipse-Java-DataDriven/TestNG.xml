@@ -1,24 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Loginsuite">
-<test name="Bothinvalid">
-<classes>
-<class name="demo.java.datadriven.xml.Bothinvalid"/>
-</classes>	
-</test>
-<test name="Invalid Password">
-<classes>
-<class name="demo.java.datadriven.xml.InvalidPassword"/>
-</classes>	
-</test>
-<test name="Invalid Username">
-<classes>
-<class name="demo.java.datadriven.xml.InvalidUsername"/>
-</classes>	
-</test>
-<test name="Valid Credentials">
-<classes>
-<class name="demo.java.datadriven.xml.Login"/>
-</classes>	
-</test>
+	<test name="Bothinvalid">
+		<parameter name="username" value="Admin1"></parameter>
+		<parameter name="password" value="admin1234"></parameter>
+		<classes>
+			<class name="demo.java.datadriven.xml.parameter.Bothinvalid" />
+		</classes>
+	</test>
+	<test name="Invalid Password">
+		<parameter name="username" value="Admin"></parameter>
+		<parameter name="password" value="admin1234"></parameter>
+		<classes>
+			<class
+				name="demo.java.datadriven.xml.parameter.InvalidPassword" />
+		</classes>
+	</test>
+	<test name="Invalid Username">
+		<parameter name="username" value="admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class
+				name="demo.java.datadriven.xml.parameter.InvalidUsername" />
+		</classes>
+	</test>
+	<test name="Valid Credentials">
+		<parameter name="username" value="Admin"></parameter>
+		<parameter name="password" value="admin123"></parameter>
+		<classes>
+			<class name="demo.java.datadriven.xml.parameter.Login" />
+		</classes>
+	</test>
 </suite>
