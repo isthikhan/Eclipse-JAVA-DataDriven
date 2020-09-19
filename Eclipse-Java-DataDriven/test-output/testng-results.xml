@@ -2,40 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Loginsuite" duration-ms="49400" started-at="2020-09-19T16:07:48 IST" finished-at="2020-09-19T16:08:38 IST">
+  <suite name="Loginsuite" duration-ms="43816" started-at="2020-09-19T18:00:59 IST" finished-at="2020-09-19T18:01:43 IST">
     <groups>
     </groups>
-    <test name="Bothinvalid" duration-ms="12643" started-at="2020-09-19T16:07:48 IST" finished-at="2020-09-19T16:08:01 IST">
-      <class name="demo.java.datadriven.xml.parameter.Bothinvalid">
-        <test-method status="PASS" signature="loginwithInvalidcredentials()[pri:0, instance:demo.java.datadriven.xml.parameter.Bothinvalid@5bc79255]" name="loginwithInvalidcredentials" duration-ms="12558" started-at="2020-09-19T16:07:49 IST" finished-at="2020-09-19T16:08:01 IST">
+    <test name="Login" duration-ms="43816" started-at="2020-09-19T18:00:59 IST" finished-at="2020-09-19T18:01:43 IST">
+      <class name="demo.java.datadriven.dataprovider.Login">
+        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="12501" started-at="2020-09-19T18:00:59 IST" data-provider="logindata" finished-at="2020-09-19T18:01:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginwithInvalidcredentials -->
-      </class> <!-- demo.java.datadriven.xml.parameter.Bothinvalid -->
-    </test> <!-- Bothinvalid -->
-    <test name="Invalid Password" duration-ms="11252" started-at="2020-09-19T16:08:01 IST" finished-at="2020-09-19T16:08:12 IST">
-      <class name="demo.java.datadriven.xml.parameter.InvalidPassword">
-        <test-method status="PASS" signature="loginwithInvalidPassword()[pri:0, instance:demo.java.datadriven.xml.parameter.InvalidPassword@67205a84]" name="loginwithInvalidPassword" duration-ms="11247" started-at="2020-09-19T16:08:01 IST" finished-at="2020-09-19T16:08:12 IST">
+        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="10568" started-at="2020-09-19T18:01:11 IST" data-provider="logindata" finished-at="2020-09-19T18:01:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithInvalidPassword -->
-      </class> <!-- demo.java.datadriven.xml.parameter.InvalidPassword -->
-    </test> <!-- Invalid Password -->
-    <test name="Invalid Username" duration-ms="11173" started-at="2020-09-19T16:08:12 IST" finished-at="2020-09-19T16:08:24 IST">
-      <class name="demo.java.datadriven.xml.parameter.InvalidUsername">
-        <test-method status="PASS" signature="loginwithInvalidUsername()[pri:0, instance:demo.java.datadriven.xml.parameter.InvalidUsername@1f554b06]" name="loginwithInvalidUsername" duration-ms="11169" started-at="2020-09-19T16:08:12 IST" finished-at="2020-09-19T16:08:24 IST">
+        </test-method> <!-- loginwithInvalidcredentials -->
+        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="10479" started-at="2020-09-19T18:01:22 IST" data-provider="logindata" finished-at="2020-09-19T18:01:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithInvalidUsername -->
-      </class> <!-- demo.java.datadriven.xml.parameter.InvalidUsername -->
-    </test> <!-- Invalid Username -->
-    <test name="Valid Credentials" duration-ms="14273" started-at="2020-09-19T16:08:24 IST" finished-at="2020-09-19T16:08:38 IST">
-      <class name="demo.java.datadriven.xml.parameter.Login">
-        <test-method status="PASS" signature="loginwithBothCorrect()[pri:0, instance:demo.java.datadriven.xml.parameter.Login@7f13d6e]" name="loginwithBothCorrect" duration-ms="14270" started-at="2020-09-19T16:08:24 IST" finished-at="2020-09-19T16:08:38 IST">
+        </test-method> <!-- loginwithInvalidcredentials -->
+        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="10159" started-at="2020-09-19T18:01:32 IST" data-provider="logindata" finished-at="2020-09-19T18:01:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithBothCorrect -->
-      </class> <!-- demo.java.datadriven.xml.parameter.Login -->
-    </test> <!-- Valid Credentials -->
+        </test-method> <!-- loginwithInvalidcredentials -->
+      </class> <!-- demo.java.datadriven.dataprovider.Login -->
+    </test> <!-- Login -->
   </suite> <!-- Loginsuite -->
 </testng-results>
