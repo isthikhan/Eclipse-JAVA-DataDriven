@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Loginsuite">
+<test name="Login test case with xml">
+<classes>
+<class name="demo.java.datadriven.xml.Bothinvalid"/>
+<class name="demo.java.datadriven.xml.InvalidPassword"/>
+<class name="demo.java.datadriven.xml.InvalidUsername"/>
+<class name="demo.java.datadriven.xml.Login"/>
+</classes>	
+</test>
+</suite>
