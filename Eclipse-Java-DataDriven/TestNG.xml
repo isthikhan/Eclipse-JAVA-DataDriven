@@ -3,7 +3,7 @@
 <suite name="Loginsuite">
 	<test name="Login">
 		<classes>
-			<class name="demo.java.datadriven.dataprovider.Login" />
+			<class name="demo.java.datadriven.JXL.Datadrivenwithxls" />
 		</classes>
 	</test>
 </suite>

@@ -2,12 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Loginsuite" duration-ms="43816" started-at="2020-09-19T18:00:59 IST" finished-at="2020-09-19T18:01:43 IST">
+  <suite name="Loginsuite" duration-ms="16644" started-at="2020-09-19T22:27:14 IST" finished-at="2020-09-19T22:27:31 IST">
     <groups>
     </groups>
-    <test name="Login" duration-ms="43816" started-at="2020-09-19T18:00:59 IST" finished-at="2020-09-19T18:01:43 IST">
-      <class name="demo.java.datadriven.dataprovider.Login">
-        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="12501" started-at="2020-09-19T18:00:59 IST" data-provider="logindata" finished-at="2020-09-19T18:01:11 IST">
+    <test name="Login" duration-ms="16644" started-at="2020-09-19T22:27:14 IST" finished-at="2020-09-19T22:27:31 IST">
+      <class name="demo.java.datadriven.JXL.Datadrivenwithxls">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:demo.java.datadriven.JXL.Datadrivenwithxls@3a883ce7]" name="beforetest" is-config="true" duration-ms="5621" started-at="2020-09-19T22:27:14 IST" finished-at="2020-09-19T22:27:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="loginwithcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.JXL.Datadrivenwithxls@3a883ce7]" name="loginwithcredentials" duration-ms="5888" started-at="2020-09-19T22:27:20 IST" data-provider="logindata" finished-at="2020-09-19T22:27:26 IST">
           <params>
             <param index="0">
               <value>
@@ -22,8 +26,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithInvalidcredentials -->
-        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="10568" started-at="2020-09-19T18:01:11 IST" data-provider="logindata" finished-at="2020-09-19T18:01:22 IST">
+        </test-method> <!-- loginwithcredentials -->
+        <test-method status="PASS" signature="loginwithcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.JXL.Datadrivenwithxls@3a883ce7]" name="loginwithcredentials" duration-ms="1302" started-at="2020-09-19T22:27:26 IST" data-provider="logindata" finished-at="2020-09-19T22:27:27 IST">
           <params>
             <param index="0">
               <value>
@@ -38,8 +42,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithInvalidcredentials -->
-        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="10479" started-at="2020-09-19T18:01:22 IST" data-provider="logindata" finished-at="2020-09-19T18:01:32 IST">
+        </test-method> <!-- loginwithcredentials -->
+        <test-method status="PASS" signature="loginwithcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.JXL.Datadrivenwithxls@3a883ce7]" name="loginwithcredentials" duration-ms="1349" started-at="2020-09-19T22:27:27 IST" data-provider="logindata" finished-at="2020-09-19T22:27:29 IST">
           <params>
             <param index="0">
               <value>
@@ -54,8 +58,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithInvalidcredentials -->
-        <test-method status="PASS" signature="loginwithInvalidcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.dataprovider.Login@43814d18]" name="loginwithInvalidcredentials" duration-ms="10159" started-at="2020-09-19T18:01:32 IST" data-provider="logindata" finished-at="2020-09-19T18:01:43 IST">
+        </test-method> <!-- loginwithcredentials -->
+        <test-method status="PASS" signature="loginwithcredentials(java.lang.String, java.lang.String)[pri:0, instance:demo.java.datadriven.JXL.Datadrivenwithxls@3a883ce7]" name="loginwithcredentials" duration-ms="1354" started-at="2020-09-19T22:27:29 IST" data-provider="logindata" finished-at="2020-09-19T22:27:30 IST">
           <params>
             <param index="0">
               <value>
@@ -70,8 +74,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginwithInvalidcredentials -->
-      </class> <!-- demo.java.datadriven.dataprovider.Login -->
+        </test-method> <!-- loginwithcredentials -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:demo.java.datadriven.JXL.Datadrivenwithxls@3a883ce7]" name="aftertest" is-config="true" duration-ms="787" started-at="2020-09-19T22:27:30 IST" finished-at="2020-09-19T22:27:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- demo.java.datadriven.JXL.Datadrivenwithxls -->
     </test> <!-- Login -->
   </suite> <!-- Loginsuite -->
 </testng-results>
